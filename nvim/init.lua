@@ -121,6 +121,12 @@ require('lazy').setup({
 		},
 		opts = {}
 	},
+
+	{
+		"LintaoAmons/scratch.nvim",
+		event = "VeryLazy",
+	},
+
 }, {})
 
 -- Disable mouse
@@ -152,6 +158,10 @@ vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev)
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<space>q', vim.diagnostic.setloclist)
+
+-- Add scratch keybindings
+vim.keymap.set("n", "<M-C-n>", "<cmd>Scratch<cr>")
+vim.keymap.set("n", "<M-C-o>", "<cmd>ScratchOpen<cr>")
 
 -- [ Configure plugins ]
 

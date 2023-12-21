@@ -1,0 +1,17 @@
+{
+  "window_cmd": "edit",
+  "use_telescope": true,
+  "filetypes": [
+    "xml",
+    "json",
+    "yaml",
+    "js",
+    "py",
+    "sh"
+  ],
+  "localKeys": [
+  ],
+  "scratch_file_dir": "/home/nkovacevic/.cache/nvim/scratch.nvim",
+  "filetype_details": {
+  }
+}
