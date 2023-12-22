@@ -4,6 +4,10 @@ lualine.setup {
 	options = {
 		component_separators = '|',
 		section_separators = { left = '', right = '' },
+		disabled_filetypes = {
+			statusline = {'NvimTree'},
+			winbar = {}
+		}
 	},
 	sections = {
 		lualine_a = {
