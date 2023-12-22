@@ -80,7 +80,6 @@ require('lazy').setup({
 
     {
         'nvim-treesitter/nvim-treesitter',
-        opts = {}
     },
 
     {
