@@ -15,7 +15,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
 	'tpope/vim-fugitive',
-	--  'tpope/vim-rhubarb', -- GitHub extension
 	'tpope/vim-sleuth', -- Auto adjust shiftwidth and expandtab
 
 	{
@@ -54,20 +53,6 @@ require('lazy').setup({
 	{
 		'nvim-lualine/lualine.nvim',
 		dependencies = { 'nvim-tree/nvim-web-devicons' },
-		opts = {
-			options = {
-				component_separators = '|',
-				section_separators = { left = '', right = '' },
-			},
-			sections = {
-				lualine_a = {
-					{ 'mode', separator = { left = '' }, right_padding = 2 },
-				},
-				lualine_z = {
-					{ 'location', separator = { right = '' }, left_padding = 2 },
-				},
-			}
-		},
 	},
 
 	{
@@ -80,35 +65,14 @@ require('lazy').setup({
 	{
 		'nvimdev/dashboard-nvim',
 		event = 'VimEnter',
-		config = function()
-			require('dashboard').setup {
-				theme = 'hyper',
-				config = {
-					week_header = {
-						enable = true,
-					},
-					shortcut = {
-						{ desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' },
-						{ desc = ' Files', group = 'Label', action = 'Telescope find_files', key = 'f', },
-						--	{ desc = ' Apps', group = 'Character', action = 'Telescope app', key = 'a', },
-						--	{ desc = ' dotfiles', group = 'Number', action = 'Telescope dotfiles', key = 'd', },
-					}
-				}
-			}
-		end,
 		dependencies = { 'nvim-tree/nvim-web-devicons' }
 	},
 
 	{
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
-		opts = {}
 	},
 
-	-- {
-	--"Shatur/neovim-session-manager",
-	--opts = {}
-	--}
 	{
 		'nvim-treesitter/nvim-treesitter',
 		opts = {}
@@ -120,7 +84,6 @@ require('lazy').setup({
 		dependencies = {
 			"nvim-tree/nvim-web-devicons",
 		},
-		opts = {}
 	},
 
 	{

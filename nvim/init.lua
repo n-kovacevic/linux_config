@@ -6,6 +6,5 @@ require("plugins/nvim-cmp")
 require("plugins/nvim-lsp")
 require("plugins/indent-blackline")
 require("plugins/nvim-tree")
-
-
-
+require("plugins/lualine")
+require("plugins.dashboard")
