@@ -98,6 +98,10 @@ require('lazy').setup({
 
     {
         "terrortylor/nvim-comment",
-    }
+    },
 
+    {
+        'windwp/nvim-autopairs',
+        opts = {}
+    }
 }, {})
