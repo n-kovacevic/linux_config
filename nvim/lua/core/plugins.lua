@@ -91,4 +91,8 @@ require('lazy').setup({
 		event = "VeryLazy",
 	},
 
+	{
+		"terrortylor/nvim-comment",
+	}
+
 }, {})
