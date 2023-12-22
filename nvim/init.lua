@@ -6,6 +6,6 @@ require("plugins/nvim-lsp")
 require("plugins/indent-blackline")
 require("plugins/nvim-tree")
 
--- require('neodev').setup()
+require('neodev').setup()
 
 
