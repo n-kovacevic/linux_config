@@ -26,6 +26,6 @@ cmp.setup {
 		['<C-Space>'] = cmp.mapping.complete(),
 		['<CR>'] = cmp.mapping.confirm(),
 		['<Tab>'] = cmp.mapping.confirm(),
-		['<Esc>'] = cmp.mapping.abort(),
 	},
 }
+
