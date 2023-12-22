@@ -2,6 +2,7 @@
   "window_cmd": "edit",
   "use_telescope": true,
   "filetypes": [
+    "txt",
     "xml",
     "json",
     "yaml",
