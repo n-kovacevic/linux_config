@@ -3,8 +3,8 @@ require('nvim-treesitter.configs').setup({
     highlight = { enable = true },
 
     indent = { enable = true },
-    auto_install = true,
-    ensure_installed = {'lua', 'vim', 'vimdoc', 'json', 'sql', 'xml', 'bash'},
+    auto_install = false,
+    ensure_installed = {'bash'},
     sync_install = false,
     ignore_install = {}
 })
