@@ -5,10 +5,10 @@ require('dashboard').setup {
 			enable = true,
 		},
 		shortcut = {
-			{ desc = '󰊳 Update', group = '@property', action = 'Lazy update', key = 'u' },
-			{ desc = ' Files', group = 'Label', action = 'Telescope find_files', key = 'f', },
-			--	{ desc = ' Apps', group = 'Character', action = 'Telescope app', key = 'a', },
-			--	{ desc = ' dotfiles', group = 'Number', action = 'Telescope dotfiles', key = 'd', },
+            { desc = ' New file', group = 'RainbowGreen', action = 'Scratch', key = 'n', },
+            { desc = ' Open file', group = 'RainbowCyan', action = 'ScratchOpen', key = 'o', },
+			{ desc = '󰊳 Update', group = 'RainbowViolet', action = 'Lazy update', key = 'u' },
+			{ desc = ' Files', group = 'RainbowOrange', action = 'Telescope find_files', key = 'f', },
 		}
 	}
 }
