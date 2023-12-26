@@ -78,9 +78,6 @@ require('lazy').setup({
         main = "ibl",
     },
 
-    {
-        'nvim-treesitter/nvim-treesitter',
-    },
 
     {
         'nvim-tree/nvim-tree.lua',
