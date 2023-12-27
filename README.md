@@ -2,7 +2,7 @@
 
 ## 1. Install tools
 ```
-sudo dnf install git epel-release
+sudo dnf install git epel-release nmp
 ```
 ```
 sudo dnf install neovim tmux
@@ -20,3 +20,8 @@ Software installed:
 sed -i 's/OSH_THEME=".*"/OSH_THEME="rr"/' .bashrc
 echo '[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}' >> .bashrc
 ```
+
+
+1. 
+1.
+1. 
