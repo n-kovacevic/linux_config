@@ -10,7 +10,8 @@ require('nvim-tree').setup({
 					arrow_open = "󰚶",
 				}
 			}
-		}
-	}
+		},
+        group_empty = true
+    }
 
 })
