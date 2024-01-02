@@ -13,7 +13,11 @@ require('mason-lspconfig').setup({
     ensure_installed = {
         "lua_ls",
         "lemminx",
-        "bashls"
+        "bashls",
+        "pylsp",
+        "dockerls",
+        "docker_compose_language_service",
+        "jsonls"
     }
 })
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
