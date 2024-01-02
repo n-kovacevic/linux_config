@@ -9,7 +9,13 @@ require('mason').setup({
 		}
 	}
 })
-require('mason-lspconfig').setup()
+require('mason-lspconfig').setup({
+    ensure_installed = {
+        "lua_ls",
+        "lemminx",
+        "bashls"
+    }
+})
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 local lspconfig = require 'lspconfig'
 lspconfig.ansiblels.setup({ capabilities = capabilities })
@@ -20,6 +26,7 @@ lspconfig.dockerls.setup({ capatibilities = capabilities })
 -- lspconfig.helm_ls.setup({ capatibilities = capabilities })
 -- lspconfig.html.setup({ capatibilities = capabilities })
 -- lspconfig.jdtls.setup({ capabilities = capabilities })
+lspconfig.java_language_server.setup({ capabilities = capabilities })
 lspconfig.jsonls.setup({ capatibilities = capabilities })
 lspconfig.lemminx.setup({ capabilities = capabilities })
 lspconfig.lua_ls.setup({ capabilities = capabilities })
