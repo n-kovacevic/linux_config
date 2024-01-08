@@ -44,6 +44,7 @@ require('lazy').setup({
 
     {
         'EdenEast/nightfox.nvim',
+        lazy = false,
         priority = 1000,
         config = function()
             vim.cmd.colorscheme 'carbonfox'
@@ -65,6 +66,11 @@ require('lazy').setup({
         tag = '0.1.3',
         dependencies = { 'nvim-lua/plenary.nvim' },
         opts = {},
+    },
+
+    {
+        'nvim-telescope/telescope-ui-select.nvim',
+        opts = {}
     },
 
     {
