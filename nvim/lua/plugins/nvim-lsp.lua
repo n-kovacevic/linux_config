@@ -17,7 +17,8 @@ require('mason-lspconfig').setup({
         "pylsp",
         "dockerls",
         "docker_compose_language_service",
-        "jsonls"
+        "jsonls",
+        "yamlls"
     }
 })
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
@@ -33,6 +34,16 @@ lspconfig.dockerls.setup({ capatibilities = capabilities })
 lspconfig.java_language_server.setup({ capabilities = capabilities })
 lspconfig.jsonls.setup({ capatibilities = capabilities })
 lspconfig.lemminx.setup({ capabilities = capabilities })
+lspconfig.yamlls.setup({
+    capabilities = capabilities,
+    settings = {
+        yaml = {
+            schemas = {
+                ["https://raw.githubusercontent.com/instrumenta/kubernetes-json-schema/master/master-standalone/all.json"] = "/*.k8s.yaml",
+            }
+        }
+    }
+})
 lspconfig.lua_ls.setup({ capabilities = capabilities })
 lspconfig.pylsp.setup({
 	capabilities = capabilities,
