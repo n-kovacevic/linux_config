@@ -105,5 +105,10 @@ require('lazy').setup({
     {
         'windwp/nvim-autopairs',
         opts = {}
+    },
+
+    {
+        'mhartington/formatter.nvim',
+        opts = {}
     }
 }, {})
