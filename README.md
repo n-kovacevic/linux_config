@@ -2,7 +2,9 @@
 
 ## 1. Install tools
 ```
-sudo dnf install git epel-release nmp
+sudo dnf config-manager --set-enabled crb
+sudo dnf install git epel-release npm
+sudo dnf install ripgrep fd-find
 ```
 ```
 sudo dnf install neovim tmux
