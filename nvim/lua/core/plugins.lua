@@ -18,6 +18,8 @@ require('lazy').setup({
 
     'tpope/vim-commentary',
     
+    'ixru/nvim-markdown',
+
     {
         'hrsh7th/nvim-cmp',
         dependencies = {
