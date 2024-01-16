@@ -16,6 +16,8 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
     'tpope/vim-fugitive',
 
+    'tpope/vim-commentary',
+    
     {
         'hrsh7th/nvim-cmp',
         dependencies = {
@@ -96,10 +98,6 @@ require('lazy').setup({
     {
         "LintaoAmons/scratch.nvim",
         event = "VeryLazy",
-    },
-
-    {
-        "terrortylor/nvim-comment",
     },
 
     {
