@@ -18,8 +18,13 @@ require('lazy').setup({
 
     'tpope/vim-commentary',
     
-    'ixru/nvim-markdown',
-
+    -- 'ixru/nvim-markdown',
+    {
+        'ellisonleao/glow.nvim',
+        config = true,
+        cmd = 'Glow'
+    },
+    
     {
         'hrsh7th/nvim-cmp',
         dependencies = {

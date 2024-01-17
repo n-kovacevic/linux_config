@@ -22,7 +22,7 @@ Software installed:
 
 ## 2. Setup bash
 
-```shell
+```bash
 sed -i 's/OSH_THEME=".*"/OSH_THEME="rr"/' .bashrc
 echo '[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}' >> .bashrc
 ```
