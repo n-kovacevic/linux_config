@@ -1,0 +1,23 @@
+{
+    "background": "#161616",
+    "black": "#282828",
+    "blue": "#78A9FF",
+    "brightBlack": "#484848",
+    "brightBlue": "#8CB6FF",
+    "brightCyan": "#52BDFF",
+    "brightGreen": "#46C880",
+    "brightPurple": "#C8A5FF",
+    "brightRed": "#F16DA6",
+    "brightWhite": "#E4E4E5",
+    "brightYellow": "#C7C53D",
+    "cursorColor": "#FFFFFF",
+    "cyan": "#33B1FF",
+    "foreground": "#F2F4F8",
+    "green": "#25BE6A",
+    "name": "carbonfox",
+    "purple": "#BE95FF",
+    "red": "#EE5396",
+    "selectionBackground": "#484848",
+    "white": "#DFDFE0",
+    "yellow": "#BDBA0A"
+}
