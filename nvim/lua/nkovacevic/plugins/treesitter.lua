@@ -8,7 +8,24 @@ return {
             highlight = { enable = true },
              -- auto_install = false,
             ensure_installed = {
-                "lua"
+                "lua",
+                "groovy",
+                "bash",
+                "json",
+                "yaml",
+                "html",
+                "css",
+                "markdown",
+                "dockerfile",
+                "gitignore",
+                "vimdoc",
+                "java",
+                "gitcommit",
+                "pem",
+                "sql",
+                "ssh_config",
+                "terraform",
+                "xml"
             }
         })
     end
