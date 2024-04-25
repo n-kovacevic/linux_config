@@ -39,3 +39,5 @@ vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#98C379" })
 vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#C678DD" })
 vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
 
+-- autocommands
+vim.cmd('au VimResized * wincmd =')
