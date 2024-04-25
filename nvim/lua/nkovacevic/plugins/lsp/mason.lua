@@ -15,12 +15,14 @@ return {
 				"lua_ls",
 				"groovyls",
 				"bashls",
+                "dockerls"
 			},
 		})
 
 		mason_tool_installer.setup({
 			ensure_installed = {
 				"stylua",
+				"prettier",
 			},
 		})
 	end,
