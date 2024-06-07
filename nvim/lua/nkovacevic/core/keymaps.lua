@@ -11,6 +11,7 @@ keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>", { desc = "Fuzzy fin
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>", { desc = "Find string in cwd" })
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>", { desc = "Find open buffers" })
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>", { desc = "Find help tags" })
+keymap.set("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Open file_browser" })
 keymap.set("n", "<leader>ft", "<cmd>Telescope filetypes theme=dropdown<cr>", { desc = "Open file type browser" })
 keymap.set("n", "<leader>tt", "<cmd>Telescope file_browser<cr>", { desc = "Open file_browser" })
 

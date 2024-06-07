@@ -23,6 +23,8 @@ return {
 			ensure_installed = {
 				"stylua",
 				"prettier",
+                "sqlfmt",
+                "shellcheck"
 			},
 		})
 	end,
