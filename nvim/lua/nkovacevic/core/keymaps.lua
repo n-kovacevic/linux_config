@@ -22,3 +22,7 @@ keymap.set("n", "<leader>re", vim.lsp.buf.rename, { desc = "Smart rename" })
 keymap.set("n", "<leader>q", vim.lsp.buf.hover, { desc = "Show documentation" })
 keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Show diagnostic in floating window" })
 keymap.set("n", "<leader>F", "<cmd>Format<cr>", { desc = "Format file" })
+
+
+-- Additional keybindings
+-- keymap.set("n", "<C-/>", "<cmd>Commentary<cr>", { desc = "Toggle comment on line(s)" })
