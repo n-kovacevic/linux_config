@@ -15,7 +15,8 @@ return {
 				"lua_ls",
 				"groovyls",
 				"bashls",
-                "dockerls"
+                "dockerls",
+                "helm_ls"
 			},
 		})
 
@@ -24,7 +25,7 @@ return {
 				"stylua",
 				"prettier",
                 "sqlfmt",
-                "shellcheck"
+                "shellcheck",
 			},
 		})
 	end,

@@ -41,3 +41,13 @@ vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
 
 -- autocommands
 vim.cmd('au VimResized * wincmd =')
+
+-- Add new filetypes
+vim.filetype.add({
+    pattern = {
+        [".*/templates/.*%.yaml"] = "helm"
+    },
+    filename = {
+        ["Chart.yaml"] = "helm"
+    }
+})
