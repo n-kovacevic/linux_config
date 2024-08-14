@@ -13,6 +13,6 @@ return {
     main = "ibl",
     event = { "BufReadPre", "BufNewFile" },
     opts = {
-        indent = { char = "│", highlight = highlight }
+        indent = { char = "┆", highlight = highlight }
     }
 }
