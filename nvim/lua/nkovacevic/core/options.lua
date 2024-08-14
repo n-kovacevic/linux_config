@@ -48,6 +48,7 @@ vim.filetype.add({
         [".*/templates/.*%.yaml"] = "helm"
     },
     filename = {
-        ["Chart.yaml"] = "helm"
+        ["Chart.yaml"] = "helm",
+        ["Jenkinsfile"] = "groovy"
     }
 })
