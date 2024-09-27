@@ -16,7 +16,8 @@ return {
 				"groovyls",
 				"bashls",
                 "dockerls",
-                "helm_ls"
+                "helm_ls",
+                "terraformls"
 			},
 		})
 
