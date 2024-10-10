@@ -21,6 +21,7 @@ return {
                 yaml = { "prettier" },
                 markdown = { "prettier" },
                 sql = { "sqlfmt" },
+                xml = { "xmlformat" },
             }
         })
 

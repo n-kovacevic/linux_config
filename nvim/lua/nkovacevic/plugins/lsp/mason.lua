@@ -27,6 +27,7 @@ return {
 				"prettier",
                 "sqlfmt",
                 "shellcheck",
+                "xmlformatter"
 			},
 		})
 	end,
