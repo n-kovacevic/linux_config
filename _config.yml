@@ -3,3 +3,4 @@ description: Bookmark this to keep an eye on my project updates!
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-include-cache
+  - jekyll-gist
